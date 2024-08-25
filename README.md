@@ -25,3 +25,11 @@ This is a RESTful API for managing books, built with Flask and Docker. The API s
    ```bash
    git clone https://github.com/Didula98/flask-book-management-api.git
    cd repository-name
+2. **Build the Docker Image**
+   ```bash
+   docker build -t book-management-api .
+4. **Run the Docker Container**
+   ```bash
+   docker run -d -p 5000:5000 book-management-api
+6. **Access the API**
+   The API will be available at http://localhost:5000 or http://127.0.0.1:5000.
